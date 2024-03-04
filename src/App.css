@@ -1,0 +1,13 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background:#fff;
+}
+a.active{
+  border-bottom: 4px solid #4337c8;
+  color: #4337c8;
+  font-weight: 700;
+}
