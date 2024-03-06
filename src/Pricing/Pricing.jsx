@@ -3,11 +3,12 @@ import React from "react";
 const Pricing = () => {
   const pricing = [
     {
-      name: "Litterbox-Provided Box - $49",
-      details: ["Dimensions: 18’’ x 18’’ x 26’’", "Maximum weight: 50 lbs"],
+      name: "Simple Storage - Provided Box - 199dhs",
+      details: ["Dimensions: 40cm x 40cm x 60cm", "Maximum weight: 20kg ",
+    "OFFRE deux box a 299dhs"],
     },
     {
-      name: "Large Items - $80",
+      name: "Large Items - 399dhs",
       details: [
         "Desk",
         "Bookshelf",
@@ -17,7 +18,7 @@ const Pricing = () => {
       ],
     },
     {
-      name: "Extra-large Items - $95",
+      name: "Extra-large Items - 650dhs",
       details: [
         "TV (unboxed)",
         "King bed frame (assembled)",
@@ -26,30 +27,27 @@ const Pricing = () => {
       ],
     },
     {
-      name: "Oversized Items - $150",
+      name: "Oversized Items - 800dhs",
       details: ["Dresser (emptied)", "Bean bag chairs"],
     },
     {
       name: "Insurance",
-      details: ["Premium insurance - $20"],
+      details: ["Premium insurance - 120dhs"],
     },
     {
       name: "Fees",
       details: [
-        "Registration - $40",
-        "Overweight fee - $100 (boxes, suitcases, duffles, trunks, and plastic totes must be under 50 lbs)",
-        "Rescheduling fee (within 72 hours) - $75",
-        "Truck delay / reroute - $35",
-        "Delivery fee (outside of available dates) - $200",
-        "Additional delivery mileage between 2-5 miles - $300",
+        "Overweight fee - 200dhs (boxes, suitcases, duffles, trunks, and plastic totes must be under 20kg)",
+        "Rescheduling fee (within 72 hours) - 150dhs",
+        "Delivery fee (outside of available dates) - 500dhs",
       ],
     },
     {
-        name: "Standard Items - $49",
+        name: "Standard Items - 199dhs",
         details: [
-          "Suitcase / duffle (under 50 lbs)",
-          "Trunk (under 50 lbs)",
-          "Plastic tote (under 50 lbs)",
+          "Suitcase / duffle (under 20kg)",
+          "Trunk (under 20kg)",
+          "Plastic tote (under 20kg)",
           "Set of 3 plastic drawers (emptied)",
           "Mini-fridge",
           "Fan",

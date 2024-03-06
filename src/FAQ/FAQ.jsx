@@ -4,26 +4,20 @@ import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 const FAQ = () => {
   const FAQ = [
     {
-      title: "DOES LITTERBOX STORE ITEMS THAT AREN'T LISTED?",
+      title: "DOES SIMPLE STORAGE STORE ITEMS THAT AREN'T LISTED?",
       isShowed: true,
       description: "Yes we do! Please check the pricing tab for commonly stored non-box items. Pricing for unlisted items is handled on an individual basis. Please contact <a href='mailto:contact@simplestorage.ma'>contact@simplestorage.ma</a> to receive a quote.",
     },
     {
-      title: "WHAT DOES MY $40 REGISTRATION FEE COVER?",
-      isShowed: false,
-      description:
-        "The $40 registration fee includes 5 Litterbox provided boxes and packing supplies. Each box you fill and choose to store with us will be $49.For example, if you fill 3 of the 5 provided boxes, you would be charged 3 boxes x $49 on top of the $40 registration fee for a total of $187. This covers pick-up from your current room, storage for the entirety of summer, and delivery to your new room before you move in.",
-    },
-    {
       title: "HOW BIG ARE THE BOXES THAT YOU PROVIDE?",
       isShowed: false,
-      description: "Our boxes are 4.5 cubic feet (24in x 18in x 18in).",
+      description: "Our boxes are 96 Liters (60cm x 40cm x 40cm).",
     },
     {
       title: "CAN I USE MY OWN BOXES?",
       isShowed: false,
       description:
-        "Yes, you can provide your own boxes up to 6 cubic feet (ex. 2 ft x 2 ft x 1.5 ft). However, our boxes are extremely high-quality, double-walled boxes and they are included with every sign-up, so we recommend you use our boxes.",
+        "Yes, you can provide your own boxes up to 150 liters (ex. 60cm x 60cm x 41cm). However, our boxes are extremely high-quality, double-walled boxes and they are included with every sign-up, so we recommend you use our boxes.",
     },
     {
       title: "DO I HAVE TO BUY MY BOXES?",
@@ -35,12 +29,12 @@ const FAQ = () => {
       title: "WHERE CAN I PICK UP MY BOXES?",
       isShowed: false,
       description:
-        "We will announce 2024 box distribution days in Spring Quarter.",
+        "We will announce 2024 box distribution days after 'RAMADAN'!.",
     },
     {
       title: "WHEN CAN I HAVE MY STUFF PICKED UP?",
       isShowed: false,
-      description: "We will announce 2024 pick up dates on March 1!",
+      description: "We will announce 2024 pick up dates after 'RAMADAN'!",
     },
     {
       title: "WHEN IS THE EARLIEST MOVE-IN DATE?",
@@ -55,9 +49,9 @@ const FAQ = () => {
         "Yes! Our storing pickup and dropoff times are inclusive for students who need to leave/return earlier. The earliest pick-up time we offer is June 5th, and the earliest drop-off time is September 4th.",
     },
     {
-      title: " I LIVE OFF-CAMPUS. CAN I STILL STORE WITH LITTERBOX?",
+      title: " I LIVE OFF-CAMPUS. CAN I STILL STORE WITH SIMPLE STORAGE?",
       isShowed: false,
-      description: "Yes, as long as you live within 2 miles of campus!",
+      description: "Yes, as long as you live within 10km of campus!",
     },
   ];
   const [state, setState] = useState(FAQ);
