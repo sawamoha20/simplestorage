@@ -7,7 +7,7 @@ const HowItWork = () => {
       name: "step 01",
       isShowed: true,
       description:
-        "Fill out our online form to reserve your spot for Summer 2024. The registration fee is $40 and nonrefundable. Included with registration are 5 boxes and packaging tape.",
+        "Fill out our online form to reserve your spot for Summer 2024.",
     },
     {
       name: "step 02",
@@ -19,7 +19,7 @@ const HowItWork = () => {
       name: "step 03",
       isShowed: false,
       description:
-        "Pick up your boxes. We'll distribute them in front of Lisa's or Allison during reading week. Additional boxes will be available for purchase",
+        "Pick up your boxes. We'll announce the distribution centers later. Additional boxes will be available for purchase",
     },
     {
       name: "step 04",
@@ -31,7 +31,7 @@ const HowItWork = () => {
       name: "step 05",
       isShowed: false,
       description:
-        "We'll store your belongings in a high security, climate-controlled warehouse. If you live on-campus, we'll deliver your items to your new dorm room before you arrive in the fall. If you live off- campus, we'll contact you in August to set up a delivery appointment.",
+        "We'll store your belongings in a high security warehouse. We'll contact you in August to set up a delivery appointment.",
     },
   ];
   const [state, setState] = useState(steps);
