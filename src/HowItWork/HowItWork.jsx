@@ -85,7 +85,7 @@ const HowItWork = () => {
                       <FaChevronDown />
                     </button>
                   ) : (
-                    <button
+                    <button href="https://d0jstai1zyk.typeform.com/to/J4A5Mjbx"
                       className="close-icon cursor-pointer"
                       onClick={() => {
                         handleClick({
