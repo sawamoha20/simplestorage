@@ -5,7 +5,7 @@ const Pricing = () => {
     {
       name: "Simple Storage - Provided Box - 199dhs",
       details: ["Dimensions: 40cm x 40cm x 60cm", "Maximum weight: 20kg ",
-    "OFFRE deux box a 299dhs"],
+    ],
     },
     {
       name: "Large Items - 399dhs",
@@ -33,6 +33,13 @@ const Pricing = () => {
     {
       name: "Insurance",
       details: ["Premium insurance - 120dhs"],
+    },
+    {
+      name: "Special Offers",
+      details: [
+        "two boxes - 299dhs",
+        "three boxes - 399dhs",
+    ],
     },
     {
       name: "Fees",
