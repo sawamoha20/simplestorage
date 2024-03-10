@@ -49,9 +49,7 @@ const HowItWork = () => {
             how it works
           </h1>
           <img src={image} className="w-full sm:w-3/4" alt="" />
-          <button className="bg-primary w-[150px] sm:w-[200px] text-center px-2 sm:px-6 py-3 sm:py-4 rounded-md text-slate-50 uppercase font-[400] sm:font-[500] tracking-normal">
-            register now
-          </button>
+          <a href='https://d0jstai1zyk.typeform.com/to/J4A5Mjbx' className='bg-primary w-[200px] text-center px-6 py-4 rounded-md text-slate-50 uppercase font-[500] tracking-normal'>register now</a>
         </div>
         <div className="content-right py-10 flex-1">
           <div className="steps flex flex-col gap-5 p-4">
@@ -85,7 +83,7 @@ const HowItWork = () => {
                       <FaChevronDown />
                     </button>
                   ) : (
-                    <button href="https://d0jstai1zyk.typeform.com/to/J4A5Mjbx"
+                    <button
                       className="close-icon cursor-pointer"
                       onClick={() => {
                         handleClick({
