@@ -4,7 +4,7 @@ const Pricing = () => {
   const pricing = [
     {
       name: "Simple Storage - Provided Box - 199dhs",
-      details: ["Dimensions: 40cm x 40cm x 60cm", "Maximum weight: 20kg ",
+      details: ["Dimensions: 60cm x 40cm x 40cm", "Maximum weight: 20kg ",
     ],
     },
     {
