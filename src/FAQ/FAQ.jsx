@@ -43,7 +43,7 @@ const FAQ = () => {
     },
     {
       title:
-        " I’M LEAVING CAMPUS EARLY / COMING BACK TO CAMPUS EARLY. CAN I STILL STORE WITH LITTERBOX?",
+        " I’M LEAVING CAMPUS EARLY / COMING BACK TO CAMPUS EARLY. CAN I STILL STORE WITH SIMPLE STORAGE?",
       isShowed: false,
       description:
         "Yes! Our storing pickup and dropoff times are inclusive for students who need to leave/return earlier. The earliest pick-up time we offer is June 5th, and the earliest drop-off time is September 4th.",
